@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: About
 description: This is the description.
 background: '/images/veesd.jpg'
