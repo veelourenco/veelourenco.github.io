@@ -10,6 +10,7 @@ For MacOS Catalina:
 *   Install Ruby gems:
     
     `gem install --user-install bundler jekyll`
+
 *   Run bundle to set up project:
     
     `bundle`
@@ -23,6 +24,10 @@ For MacOS Catalina:
 This will update files in the `_site` directory:
 
 `bundle exec jekyll build`
+
+> Note:
+> It is sometimes necessary to run the following when bundles are changed:
+> `bundle update && bundle install`
 
 ### Run
 
