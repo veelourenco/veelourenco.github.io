@@ -34,3 +34,24 @@ This will update files in the `_site` directory:
 This will both **build** and serve the site at [http://localhost:4000/](http://localhost:4000/):
 
 `bundle exec jekyll serve --incremental`
+
+## Adding pages
+
+Assuming we are adding a page called "My New Page":
+
+*   Add a new file `mynewpage.markdown`
+
+*   Use the properties:
+    ```
+    ---
+    layout: bootstrap
+    title: My New Page
+    permalink: mynewpage
+    ---
+    ```
+
+*   If you want a link to this page from the top navigation, add the page `title` and `permalink` to the `navigation` property in `_config.yml`
+
+*   Restart the server and test
+
+*   Add content to your new page

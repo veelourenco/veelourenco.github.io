@@ -2,8 +2,8 @@
 <html lang="{{ site.lang | default: 'en' }}">
 
 <head>
+  {%- if site.google_analytics -%}
   <!-- Google analytics -->
-  {% if site.google_analytics %}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -11,43 +11,45 @@
     gtag('js', new Date());
     gtag('config', '{{ site.google_analytics }}');
   </script>
-  {% endif %}
+  {%- endif -%}
 
-  {% seo %}
+  {%- seo -%}
 
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
+  <!-- Third Party CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-
-  <title>{{ page.title }} | {{ site.title }}</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">{{ site.title }}</a>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand order-md-last" href="">{{ site.brand }}</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        {% for item in site.navigation %}
-        <li class="nav-item {% if item.permalink == page.permalink %}active{% endif %}">
+        {%- for item in site.navigation -%}
+        <li
+          class="nav-item {% if item.permalink == page.permalink or item.permalink == '/' and page.permalink == nil %}active{% endif %}">
           <a href="{{ item.permalink }}">
             {{ item.title }}
-            {% if item.permalink == page.permalink %}
+            {%- if item.permalink == page.permalink -%}
             <span class="sr-only">(current)</span>
-            {% endif %}
+            {%- endif -%}
           </a>
         </li>
-        {% endfor %}
+        {%- endfor -%}
       </ul>
     </div>
   </nav>
@@ -56,7 +58,34 @@
     {{ content }}
   </div>
 
-  <!-- Optional JavaScript -->
+  <hr />
+
+  <footer>
+    <div class="socialmediaicons">
+      {%- if site.social.facebook -%}<a href="{{ site.social.facebook }}" class="fab fa-facebook-f"></a>{%- endif -%}
+      {%- if site.social.twitter -%}<a href="{{ site.social.twitter }}" class="fab fa-twitter"></a>{%- endif -%}
+      {%- if site.social.google -%}<a href="{{ site.social.google }}" class="fab fa-google"></a>{%- endif -%}
+      {%- if site.social.linkedin -%}<a href="{{ site.social.linkedin }}" class="fab fa-linkedin"></a>{%- endif -%}
+      {%- if site.social.youtube -%}<a href="{{ site.social.youtube }}" class="fab fa-youtube"></a>{%- endif -%}
+      {%- if site.social.instagram -%}<a href="{{ site.social.instagram }}" class="fab fa-instagram"></a>{%- endif -%}
+      {%- if site.social.pinterest -%}<a href="{{ site.social.pinterest }}" class="fab fa-pinterest"></a>{%- endif -%}
+      {%- if site.social.snapchat -%}<a href="{{ site.social.snapchat }}" class="fab fa-snapchat-ghost"></a>{%- endif -%}
+      {%- if site.social.skype -%}<a href="{{ site.social.skype }}" class="fab fa-skype"></a>{%- endif -%}
+      {%- if site.social.android -%}<a href="{{ site.social.android }}" class="fab fa-android"></a>{%- endif -%}
+      {%- if site.social.dribbble -%}<a href="{{ site.social.dribbble }}" class="fab fa-dribbble"></a>{%- endif -%}
+      {%- if site.social.vimeo -%}<a href="{{ site.social.vimeo }}" class="fab fa-vimeo"></a>{%- endif -%}
+      {%- if site.social.tumblr -%}<a href="{{ site.social.tumblr }}" class="fab fa-tumblr"></a>{%- endif -%}
+      {%- if site.social.vine -%}<a href="{{ site.social.vine }}" class="fab fa-vine"></a>{%- endif -%}
+      {%- if site.social.foursquare -%}<a href="{{ site.social.foursquare }}" class="fab fa-foursquare"></a>{%- endif -%}
+      {%- if site.social.stumbleupon -%}<a href="{{ site.social.stumbleupon }}" class="fab fa-stumbleupon"></a>{%- endif -%}
+      {%- if site.social.flickr -%}<a href="{{ site.social.flickr }}" class="fab fa-flickr"></a>{%- endif -%}
+      {%- if site.social.yahoo -%}<a href="{{ site.social.yahoo }}" class="fab fa-yahoo"></a>{%- endif -%}
+      {%- if site.social.reddit -%}<a href="{{ site.social.reddit }}" class="fab fa-reddit"></a>{%- endif -%}
+      {%- if site.social.rss -%}<a href="{{ site.social.rss }}" class="fa fa-rss"></a>{%- endif -%}
+    </div>
+    <p class="copyright">Copyright © 2020 {{ site.brand }}</p>
+  </footer>
+
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
