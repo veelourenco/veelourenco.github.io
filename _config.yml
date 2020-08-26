@@ -29,11 +29,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 social: # add your social links here
   facebook: 
-  twitter: https://twitter.com/jekyllrb
+  twitter: 
   google:
-  linkedin:
-  youtube:
-  instagram:
+  linkedin: https://www.linkedin.com/in/verenalourenco/ 
+  youtube: https://www.youtube.com/channel/UC0NoHZob3pdHEIqzWL6sAMQ/playlists
+  instagram: https://www.instagram.com/veelourenco 
   pinterest:
   snapchat:
   skype:
@@ -53,6 +53,10 @@ navigation:
     permalink: /
   - title: About
     permalink: /about
+  - title: Projects
+    permalink: /projects
+  - title: Contact
+    permalink: /contact    
 
 # Build settings
 theme: jekyll-theme-cayman
