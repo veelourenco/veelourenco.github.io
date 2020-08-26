@@ -1,8 +1,6 @@
 ---
-layout: default
+layout: bootstrap
 title: About
-description: This is the description.
-background: '/images/veesd.jpg'
 permalink: /about
 ---
 
