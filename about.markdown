@@ -3,7 +3,7 @@ layout: default
 title: About
 description: This is the description.
 background: '/images/veesd.jpg'
-permalink: /about/
+permalink: /about
 ---
 
 This is the about section.
