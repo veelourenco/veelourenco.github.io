@@ -55,3 +55,43 @@ Assuming we are adding a page called "My New Page":
 *   Restart the server and test
 
 *   Add content to your new page
+
+## Adding rich content to pages
+
+There are several templates to include rich content in your pages in the `_includes` folder. Here are some examples:
+
+*   To insert a YouTube video, get the videoid from YouTube. For example, https://www.youtube.com/watch?v=M7lc1UVf-VE:
+
+    `{% include youtube.html videoid="M7lc1UVf-VE" %}`
+
+    You can customize the content by passing tbe following parameters:
+
+    *   `videoid` (required): The videoid from the YouTube URL
+    *   `width`: The width (default `640`)
+    *   `height`: The height (default `320`)
+    *   `autoplay`: Whether the video will autoplay. `1` for yes (default), `0` for no
+        > Note: Autoplay can be blocked by adblockers
+
+*   To insert Spotify content, get the content link:
+
+    ![Spotify links](https://developer.spotify.com/assets/select-track-link.png)
+
+    `{% include spotify.html type="track" contentid="7xGfFoTpQ2E7fRF5lN10tr" %}`
+
+    `{% include spotify.html type="album" contentid="1DFixLWuPkv3KT3TnV35m3" size="large" %}`
+
+    You can customize the content by passing tbe following parameters:
+
+    *   `type` (required): Content type e.g. `album`, `track`
+    *   `size`: The size `compact` (default 300x80) or `large` (300x380)
+    *   If you want a custom size:
+        *   `width`: The width
+        *   `height`: The height
+
+*   This is a Spotify follow button, get the `artistid`:
+
+    `{% include spotifyfollow.html artistid="6sFIWsNpZYqfjUpaCgueju" %}`
+
+    You can customize the content by passing tbe following parameters:
+
+    * `artistid` (required): The artistid

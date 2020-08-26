@@ -1,0 +1,13 @@
+<iframe
+  src="https://open.spotify.com/embed/{{ include.type }}/{{ include.contentid }}"
+  {% if include.size == 'compact' or include.size == 'large' -%}
+  width="300"
+  height="{% if include.size == 'compact' %}80{% else %}380{% endif %}"
+  {% else -%}
+  width="{{ include.width | default: 300 }}"
+  height="{{ include.height | default: 80 }}"
+  {% endif -%}
+  frameborder="{{ include.frameborder | default: 0 }}"
+  allowtransparency="true"
+  allow="encrypted-media">
+</iframe>

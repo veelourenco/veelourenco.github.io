@@ -1,0 +1,8 @@
+<iframe
+  {% if include.id -%}id="{{id}}"{%- endif -%}
+  type="text/html"
+  width="{{ include.width | default: 640 }}"
+  height="{{ include.height | default: 320 }}"
+  src="https://www.youtube.com/embed/{{ include.videoid }}?autoplay={{ include.autoplay | default: 1 }}&origin={{ site.url }}"
+  frameborder="0">
+</iframe>
