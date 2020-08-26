@@ -1,0 +1,20 @@
+---
+permalink: /404.html
+layout: bootstrap
+---
+
+# 404
+{: style="
+  color:red;
+  text-align: center;
+  margin: 30px 0;
+  font-size: 4em;
+  line-height: 1;
+  letter-spacing: -1px;
+"}
+
+**Page not found :(**
+{: style="text-align: center;"}
+
+The requested page could not be found.
+{: style="text-align: center;"}
