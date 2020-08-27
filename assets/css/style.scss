@@ -10,7 +10,10 @@ $border-dark: rgba($base-color, 0.88);
 body {
     color: $base-color;
 }
-
+.navbar-brand {
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
 .nav-item {
     letter-spacing: .1em;
     margin-right: 1.5em;
