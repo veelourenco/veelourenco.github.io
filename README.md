@@ -67,10 +67,13 @@ There are several templates to include rich content in your pages in the `_inclu
     You can customize the content by passing tbe following parameters:
 
     *   `videoid` (required): The videoid from the YouTube URL
-    *   `width`: The width (default `640`)
-    *   `height`: The height (default `320`)
+    *   `width`: The width
+    *   `height`: The height
     *   `autoplay`: Whether the video will autoplay. `1` for yes (default), `0` for no
+
         > Note: Autoplay can be blocked by adblockers
+
+    > Note: Leave out width and height for this to be responsive
 
 *   To insert Spotify content, get the content link:
 
