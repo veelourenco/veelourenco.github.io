@@ -5,7 +5,6 @@
 {%- if include.height -%}
 {%- assign has_size = true -%}
 {%- endif -%}
-<p>{{ has_size }}</p>
 <div class="youtube-container {% unless has_size %}size-auto{% endunless %}">
   <iframe
     {% if include.id -%}id="{{id}}"{%- endif -%}
