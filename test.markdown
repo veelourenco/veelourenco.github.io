@@ -57,14 +57,30 @@ This is a test video:
 
 {% include youtube.html videoid="M7lc1UVf-VE" %}
 
-This is a large spotify album:
+This is a large Spotify album:
 
 {% include spotify.html type="album" contentid="1DFixLWuPkv3KT3TnV35m3" size="large" %}
 
-This is a compact spotify song (size is optional and compact by default):
+This is a compact Spotify song (size is optional and compact by default):
 
 {% include spotify.html type="track" contentid="7xGfFoTpQ2E7fRF5lN10tr" %}
 
-This is a spotify follow button:
+This is a Spotify follow button:
 
 {% include spotifyfollow.html artistid="6sFIWsNpZYqfjUpaCgueju" %}
+
+This is a visual SoundCloud playlist:
+
+{% include soundcloud.html type="playlists" contentid="452397393" style="visual" %}
+
+This is a classic SoundCloud playlist (style is optional and classic by default):
+
+{% include soundcloud.html type="playlists" contentid="452397393" %}
+
+This is a visual SoundCloud song:
+
+{% include soundcloud.html type="tracks" contentid="502683810" style="visual" %}
+
+This is a classic SoundCloud song (style is optional and classic by default):
+
+{% include soundcloud.html type="tracks" contentid="502683810" %}

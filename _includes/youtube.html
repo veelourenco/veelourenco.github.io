@@ -1,8 +1,18 @@
-<iframe
-  {% if include.id -%}id="{{id}}"{%- endif -%}
-  type="text/html"
-  width="{{ include.width | default: 640 }}"
-  height="{{ include.height | default: 320 }}"
-  src="https://www.youtube.com/embed/{{ include.videoid }}?autoplay={{ include.autoplay | default: 1 }}&origin={{ site.url }}"
-  frameborder="0">
-</iframe>
+{%- assign has_size = false -%}
+{%- if include.width -%}
+{%- assign has_size = true -%}
+{%- endif -%}
+{%- if include.height -%}
+{%- assign has_size = true -%}
+{%- endif -%}
+<div class="youtube-container {% unless has_size %}size-auto{% endunless %}">
+  <iframe
+    {% if include.id -%}id="{{id}}"{%- endif -%}
+    class="youtube-iframe"
+    type="text/html"
+    {% if include.width %}width="{{ include.width }}"{% endif %}
+    {% if include.height %}height="{{ include.height }}"{% endif %}
+    src="https://www.youtube.com/embed/{{ include.videoid }}?autoplay={{ include.autoplay | default: 1 }}&origin={{ site.url }}"
+    frameborder="0">
+  </iframe>
+</div>

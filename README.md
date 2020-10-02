@@ -64,13 +64,16 @@ There are several templates to include rich content in your pages in the `_inclu
 
     `{% include youtube.html videoid="M7lc1UVf-VE" %}`
 
-    You can customize the content by passing tbe following parameters:
+    You can customize the content by passing the following parameters:
 
     *   `videoid` (required): The videoid from the YouTube URL
-    *   `width`: The width (default `640`)
-    *   `height`: The height (default `320`)
+    *   `width`: The width
+    *   `height`: The height
     *   `autoplay`: Whether the video will autoplay. `1` for yes (default), `0` for no
+
         > Note: Autoplay can be blocked by adblockers
+
+    > Note: Leave out width and height for this to be responsive
 
 *   To insert Spotify content, get the content link:
 
@@ -80,18 +83,35 @@ There are several templates to include rich content in your pages in the `_inclu
 
     `{% include spotify.html type="album" contentid="1DFixLWuPkv3KT3TnV35m3" size="large" %}`
 
-    You can customize the content by passing tbe following parameters:
+    You can customize the content by passing the following parameters:
 
     *   `type` (required): Content type e.g. `album`, `track`
+    *   `contentid` (required): Content id
     *   `size`: The size `compact` (default 300x80) or `large` (300x380)
-    *   If you want a custom size:
-        *   `width`: The width
-        *   `height`: The height
+        > Note: If you want a custom size:
+        > * `width`: The width
+        > * `height`: The height
 
 *   This is a Spotify follow button, get the `artistid`:
 
     `{% include spotifyfollow.html artistid="6sFIWsNpZYqfjUpaCgueju" %}`
 
-    You can customize the content by passing tbe following parameters:
+    You can customize the content by passing the following parameters:
 
     * `artistid` (required): The artistid
+
+*   To insert SoundCloud content, get the content link (embed):
+
+    ![SoundCloud links]()
+
+    `{% include soundcloud.html type="tracks" contentid="7xGfFoTpQ2E7fRF5lN10tr" %}`
+
+    You can customize the content by passing the following parameters:
+
+    *   `type` (required): Content type e.g. `playlist`, `tracks`
+    *   `contentid` (required): Content id
+    *   `autoplay`: `true` or `false` (default)
+    *   `style`: `classic` or `visual`
+        > Note: If you want a custom size:
+        > * `width`: The width 
+        > * `height`: The height
