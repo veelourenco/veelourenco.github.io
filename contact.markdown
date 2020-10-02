@@ -5,6 +5,7 @@ description: This is the description.
 permalink: /contact
 ---
 
+<br />
 Get in touch to connect and collaborate.
 
 <form name="sentMessage" id="contactForm" novalidate>
