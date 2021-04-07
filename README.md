@@ -3,9 +3,29 @@ Public website
 
 ## Setting Up
 
-For MacOS Catalina:
+For MacOS Big Sur:
 
-*   Ruby is already included - no need to install
+*   Ruby is out of date at v2.6. Use [HomeBrew](https://brew.sh/) to install v3.0.0 or later.
+
+    ```
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    brew install rbenv ruby-build
+    ```
+
+    Update your `~/.zshrc` file with the following (and make sure that you aren't overriding the ruby `$PATH`):
+
+    ```
+    if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+    ```
+
+    Install ruby:
+
+    ```
+    # Install Ruby
+    rbenv install 3.0.0
+    rbenv global 3.0.0
+    ruby -v
+    ```
 
 *   Install Ruby gems:
     
