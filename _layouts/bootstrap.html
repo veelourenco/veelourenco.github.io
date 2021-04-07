@@ -85,7 +85,7 @@
       {%- if site.social.spotify -%}<a href="{{ site.social.spotify }}" class="fab fa-spotify"></a>{%- endif -%}
       {%- if site.social.soundcloud -%}<a href="{{ site.social.soundcloud }}" class="fab fa-soundcloud"></a>{%- endif -%}
     </div>
-    <p class="copyright">Copyright © 2020 {{ site.brand }}</p>
+    <p class="copyright">Copyright © {{ 'now' | date: "%Y" }} {{ site.brand }}</p>
   </footer>
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
