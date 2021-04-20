@@ -4,4 +4,5 @@ title: Home
 ---
 
 <br />
-![Vee Lourenco Playing Bass](/images/veesd.jpg)
+![Vee Lourenco Playing Bass](/images/veesdcolour.jpg)
+<br />
