@@ -45,5 +45,4 @@ Lu-Fuki - Bad Body Odour EP (2012, bass, backing vocals and co-production)
 <br />
 <br />
 ![Vee Lourenço Playing Bass](/images/veemoralkiosk.jpg)
-<br />
-<br />
+<div style="text-align: right"> Photo: Gemma Garman </div>
