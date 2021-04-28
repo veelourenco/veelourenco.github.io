@@ -59,6 +59,8 @@ navigation:
     permalink: /music
   - title: Videos
     permalink: /videos
+  - title: Photos
+    permalink: /photos  
   - title: Contact
     permalink: /contact    
 
