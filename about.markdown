@@ -7,7 +7,7 @@ permalink: /about
 <br />
 ## ABOUT
 <br />
-Vee Lourenço is a Zimbabwean-born British-South African bassist and composer based in Brussels, Belgium. She completed her Bachelor of Music degree from Rhodes University, South Africa, in 2013 and has over 14 years of experience in various musical contexts as a bassist, composer, performer and recording artist. 
+Vee Lourenço is a Zimbabwean-born British-South African bassist currently living in Brussels, Belgium. She completed her Bachelor of Music degree from Rhodes University, South Africa, in 2013 and has over 14 years of experience in various musical contexts as a bassist, composer, performer and recording artist. 
 <br />
 <br />
 Vee performed in productions at the Barnyard Theatres in 2014 across South Africa and in Zimbabwe, and at the Joburg Fringe Theatre in 2015 in South Africa. She played a number of corporate events between 2016 and 2018 in South Africa and Vietnam, and was an on-screen artist for a national TV and online advert in South Africa in 2016. 
@@ -16,7 +16,7 @@ Vee performed in productions at the Barnyard Theatres in 2014 across South Afric
 Vee has been a part of numerous bands in South Africa and Vietnam, most notably Lu-Fuki, Monoheart and Zamina. She has also supported several musicians, live and in studio, including Denys & the Roses in France, and Jack Kaminski in South Africa. Her most notable live shows are Quest Festival in Vietnam in 2016 and 2017, Sofar Sounds Johannesburg in 2018 in South Africa, and Smoking Dragon Festival in 2018 in South Africa.
 <br />
 <br />
-Vee is currently collaborating and working on her solo project, vlou.
+Vee is currently collaborating and working on her solo project.
 <br />
 <br />
 ## DISCOGRAPHY
