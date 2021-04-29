@@ -15,6 +15,8 @@ permalink: /videos
 <br />
 {% include youtube.html videoid="Z54tEn1vysE" %}
 <br />
+{% include youtube.html videoid="ai1zKrInmDk" %}
+<br />
 {% include youtube.html videoid="i8fRGxvC9DQ" %}
 <br />
 {% include youtube.html videoid="ju_kfET6M2s" %}
