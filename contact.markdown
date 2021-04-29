@@ -6,7 +6,9 @@ permalink: /contact
 ---
 
 <br />
-Get in touch to connect and collaborate.
+## GET IN TOUCH
+<br />
+For bookings, or to connect and collaborate, email me at <veexxbass@gmail.com> or fill in the form below.
 
 <form name="sentMessage" id="contactForm" novalidate>
   <div class="control-group">
