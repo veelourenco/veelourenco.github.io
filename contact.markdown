@@ -8,7 +8,7 @@ permalink: /contact
 <br />
 ## GET IN TOUCH
 <br />
-For bookings, or to connect and collaborate, email me at <veexxbass@gmail.com> or fill in the form below.
+For bookings or lesson enquiries, or to connect and collaborate, email me at <veexxbass@gmail.com> or fill in the form below.
 
 <form name="sentMessage" id="contactForm" novalidate>
   <div class="control-group">
