@@ -17,8 +17,6 @@ Funk Rock
 <br />
 {% include spotify.html type="album" contentid="3watpe9EXTcrr2GRLHI3WQ" width="100%" height="270" %}
 <br />
-<iframe style="border: 0; width: 700px; height: 270px;" src="https://bandcamp.com/EmbeddedPlayer/album=4110952886/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="https://lu-fuki.bandcamp.com/album/bad-body-odour">Bad Body Odour by Lu-Fuki</a></iframe>
-<br />
 ### Denys & the Roses
 Garage Blues
 <br />
