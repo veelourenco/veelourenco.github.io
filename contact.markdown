@@ -13,7 +13,7 @@ For bookings, collaborations, bass lessons or to simply connect, contact me via 
 <br />
 Email: <veexxbass@gmail.com>
 <br />
-Phone number: +499 32 218432
+Phone number: +32 499 218432
 <br />
 Location: Brussels, Belgium
 <br />
