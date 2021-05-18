@@ -5,26 +5,32 @@ permalink: /music
 ---
 
 <br />
-## MUSIC
-{% include project.html title="vlou" genre="psychedelic funk" country="belgium" %}
-coming soon...
+### MUSIC
+<br />
+#### vlou
+Psychedelic Funk
+<br />
+*Belgium*
 <br />
 <br />
-### Lu-Fuki
+Coming soon...
+<br />
+<br />
+#### Lu-Fuki
 Funk Rock
 <br />
 *South Africa*
 <br />
 {% include spotify.html type="album" contentid="3watpe9EXTcrr2GRLHI3WQ" width="100%" height="270" %}
 <br />
-### Denys & the Roses
+#### Denys & the Roses
 Garage Blues
 <br />
 *France*
 <br />
 {% include spotify.html type="track" contentid="0EHpPLfUO2ytcm5jpHK4u7" width="100%" height="80" %}
 <br />
-### Monoheart
+#### Monoheart
 Alternative Rock
 <br />
 *Vietnam*
@@ -36,7 +42,7 @@ Alternative Rock
 {% include soundcloud.html style="classic" type="tracks" contentid="480604266" %}
 {% include soundcloud.html style="classic" type="tracks" contentid="480551895" %}
 <br />
-### Reets
+#### Reets
 Folk
 <br />
 *South Africa*

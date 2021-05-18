@@ -5,7 +5,7 @@ permalink: /about
 ---
 
 <br />
-## ABOUT
+### ABOUT
 <br />
 Vee Lourenço is a Zimbabwean-born British-South African bassist currently living in Brussels, Belgium. She completed her Bachelor of Music degree at Rhodes University, South Africa, in 2013 and has over 14 years of experience in various musical contexts as a bassist, composer, performer and recording artist. 
 <br />
@@ -19,7 +19,7 @@ Vee has been a part of numerous bands in South Africa and Vietnam, most notably 
 Vee is currently collaborating and working on her solo project, vlou.
 <br />
 <br />
-## DISCOGRAPHY
+### DISCOGRAPHY
 <br />
 Denys & the Roses - Isaac Way (2021, bass)
 <br />

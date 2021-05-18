@@ -5,11 +5,11 @@ permalink: /videos
 ---
 
 <br />
-## INTERVIEWS
+### INTERVIEWS
 <br />
 {% include youtube.html videoid="SI8xjf-pbYg" %}
 <br />
-## LIVE
+### LIVE
 <br />
 {% include youtube.html videoid="vEY_hcLf6Qs" %}
 <br />
@@ -25,7 +25,9 @@ permalink: /videos
 <br />
 {% include youtube.html videoid="2M0UP50PNSk" %}
 <br />
-## MUSIC VIDEOS
+### MUSIC VIDEOS
+<br />
+{% include youtube.html videoid="1cCVIRDo-Uk" %}
 <br />
 {% include youtube.html videoid="FQ8hJfHVkME" %}
 <br />
