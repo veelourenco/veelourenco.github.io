@@ -1,21 +1,27 @@
 {% assign image_files = site.static_files | where: "photo", true %}
-<div class="row gal-container">
-  {% for myimage in image_files %}
-  <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
-    <div class="box">
-      <a href="#" data-toggle="modal" data-target="#{{ myimage.basename }}-modal">
-        <img src="{{ myimage.path }}" />
+<div class="gallery">
+  {% for image in image_files %}
+  {% assign image_title = image.basename | replace: "-", " "%}
+  {% assign image_name_split = image_title | split: "_" %}
+  {% if image_name_split.size > 1 %}
+  {% assign image_title = image_name_split[1] | replace: "-", " " %}
+  {% endif %}
+  <div class="gallery-item">
+    <div>
+      <a href="#" data-toggle="modal" data-target="#photo-{{ image.basename }}-modal">
+        <img src="{{ image.path }}" />
       </a>
-      <div class="modal fade" id="{{ myimage.basename }}-modal" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
+      <div class="modal fade" id="photo-{{ image.basename }}-modal" tabindex="-1" role="dialog" aria-labelledby="photo-{{ image.basename }}-modal-title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
           <div class="modal-content">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                aria-hidden="true">×</span></button>
-            <div class="modal-body">
-              <img src="{{ myimage.path }}" />
+            <div class="modal-header">
+              <h5 id="photo-{{ image.basename }}-modal-title" class="modal-title">{{ image_title }}</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
             </div>
-            <div class="col-md-12 description">
-              <h4>{{ myimage.basename }}</h4>
+            <div class="modal-body">
+              <img src="{{ image.path }}" />
             </div>
           </div>
         </div>
