@@ -4,7 +4,7 @@
   {% assign image_title = image.basename | replace: "-", " "%}
   {% assign image_name_split = image_title | split: "_" %}
   {% if image_name_split.size > 1 %}
-  {% assign image_title = image_name_split[1] | replace: "-", " " %}
+  {% assign image_title = image_name_split[1] %}
   {% endif %}
   <div class="gallery-item">
     <div>
