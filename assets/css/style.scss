@@ -179,6 +179,10 @@ img {
 .gallery {
     column-gap: 1em;
 
+    .modal-title {
+        font-size: .75rem;
+    }
+
    /* Large screens */
     @media only screen and (min-width: 1024px) {
         column-count: 4;
