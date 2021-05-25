@@ -25,7 +25,7 @@ Location: Brussels, Belgium
 Brett de Groot, Producer, Director, Writer and Performer at The Big Productions, South Africa
 <br />
 <br />
-<span style="color: grey;">*"I wanted for long time to learn playing bass guitar. Finally I decided to go for it and I was lucky enough to have Verena in my neighborhood. In only 5 hours she managed to give me a kick start that enabled me to keep practicing and learning alone! She is great teacher and fantastic bass player."*</span>
+<span style="color: grey;">*"I wanted for long time to learn playing bass guitar. Finally I decided to go for it and I was lucky enough to have Vee in my neighborhood. In only 5 hours she managed to give me a kick start that enabled me to keep practicing and learning alone! She is great teacher and fantastic bass player."*</span>
 <br />
 Vladimir Ilic, Former Student, Belgium
 <br />
