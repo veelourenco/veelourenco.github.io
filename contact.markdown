@@ -8,12 +8,10 @@ permalink: /contact
 <br />
 ### GET IN TOUCH
 <br />
-For bookings, collaborations, bass lessons or to simply connect, contact me via email or WhatsApp.
+For bookings, collaborations, bass lessons or to simply connect, contact me via email.
 <br />
 <br />
-Email: <veexxbass@gmail.com>
-<br />
-Phone number: +32 499 218432
+Email: <vloumusic@gmail.com>
 <br />
 Location: Brussels, Belgium
 <br />
