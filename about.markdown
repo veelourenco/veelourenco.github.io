@@ -7,7 +7,7 @@ permalink: /about
 <br />
 ### ABOUT
 <br />
-Vee Lourenço is a Zimbabwean-born South African bassist currently living in Brussels, Belgium. She started playing bass when she was 16 years old, and went on to complete her Bachelor of Music (Hons) degree at Rhodes University, South Africa in 2013. Vee has over 14 years of experience in various musical contexts and across numerous genres as a bassist, composer, performer and recording artist. 
+Vee Lourenço is a Zimbabwean-born South African bassist currently living in Brussels, Belgium. She completed her Bachelor of Music (Hons) degree at Rhodes University, South Africa in 2013, and has over 14 years of experience in various musical contexts and across numerous genres as a bassist, composer, performer and recording artist. 
 <br />
 <br />
 Vee performed in productions at The Barnyard Theatres across South Africa and in Zimbabwe (2014), and at the Joburg Fringe Theatre in South Africa (2015). She played a number of corporate events between 2016 and 2018 in South Africa and Vietnam, and was an on-screen artist for a national TV and online advert in South Africa in 2016. 
