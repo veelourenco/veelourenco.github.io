@@ -8,12 +8,10 @@ permalink: /contact
 <br />
 ### GET IN TOUCH
 <br />
-For bookings, collaborations, bass lessons or to simply connect, contact me via email.
+For bookings, collaborations, bass lessons or to connect, contact me via email.
 <br />
 <br />
-Email: <vloumusic@gmail.com>
-<br />
-Location: Brussels, Belgium
+<vloumusic@gmail.com>
 <br />
 <br />
 ### RECOMMENDATIONS
