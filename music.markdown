@@ -13,7 +13,7 @@ Psychedelic Funk
 *Belgium*
 <br />
 <br />
-Coming soon...
+[Pre-save "scenes from a dream"](https://show.co/U1fcaMF)
 <br />
 <br />
 #### Lu-Fuki
