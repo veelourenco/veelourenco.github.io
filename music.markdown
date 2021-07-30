@@ -13,7 +13,7 @@ Psychedelic Funk
 *Belgium*
 <br />
 <br />
-[Pre-save "scenes from a dream"](https://show.co/U1fcaMF)
+[Pre-save "scenes from a dream"](https://smarturl.it/vlouPRESAVEscenes)
 <br />
 <br />
 #### Lu-Fuki
