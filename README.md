@@ -135,3 +135,19 @@ There are several templates to include rich content in your pages in the `_inclu
         > Note: If you want a custom size:
         > * `width`: The width 
         > * `height`: The height
+
+## Issues with Jekyll
+
+If issues are run into with Jekyll, the site can be built as a static site and checked in by doing the following:
+
+- add an empty `.nojekyll` file to the root of the repository
+- remove the `_site` folder from `.gitignore`
+- run `bundle exec jekyll build` (creating the _site folder), commit and push
+- [configure](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) GitHub pages to point to the `_site` subdirectory
+
+Jekyll can be reenabled by:
+
+- delete the `.nojekyll` file to the root of the repository
+- delete the `_site` folder from the root of the repository
+- add the `_site` folder to `.gitignore`
+- [configure](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) GitHub pages to point to the root directory

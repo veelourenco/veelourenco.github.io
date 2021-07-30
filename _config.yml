@@ -62,7 +62,6 @@ navigation:
     permalink: /contact    
 
 # Build settings
-theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
