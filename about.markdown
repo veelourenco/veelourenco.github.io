@@ -21,6 +21,8 @@ Vee is currently collaborating and working on her solo project, [vlou](https://i
 <br />
 ### DISCOGRAPHY
 <br />
+vlou - Scenes from a Dream (2021)
+<br />
 Denys & the Roses - Isaac Way (2021, bass)
 <br />
 Reets - Tea, Wine & Time (2019, bass)
