@@ -45,7 +45,7 @@ social: # add your social links here
   yahoo:
   reddit:
   rss:
-  spotify:
+  spotify: https://open.spotify.com/artist/1djSOagKheZcTLSI06FHdC?si=XLL-s1A5TNOmD7fA_ay9Ow&dl_branch=1
   soundcloud:
 navigation:
   - title: Home
@@ -57,7 +57,9 @@ navigation:
   - title: Videos
     permalink: /videos
   - title: Photos
-    permalink: /photos  
+    permalink: /photos
+  - title: Press
+    permalink: /press     
   - title: Contact
     permalink: /contact    
 
