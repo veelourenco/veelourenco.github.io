@@ -1,7 +1,6 @@
 ---
 layout: bootstrap
 title: Contact
-description: This is the description.
 permalink: /contact
 ---
 
