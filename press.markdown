@@ -12,5 +12,5 @@ permalink: /press
 [Texx and the City](https://texxandthecity.com/2021/08/meet-vlou-whos-making-instrumental-mood-music-for-your-sunday-afternoon-and-scenes-from-a-dream-is-the-start/), South Africa
 <br />
 <br />
-![Vee Lourenco](/images/texxfeaturevlou.png)
+![Vee Lourenço](/images/texxfeaturevlou.png)
 <div style="text-align: right; font-size: 0.8em"> Photo by Gemma Garman </div>

@@ -46,5 +46,5 @@ Monoheart - Entropy (2018, bass)
 Lu-Fuki - Bad Body Odour EP (2012, bass, backing vocals and co-production)
 <br />
 <br />
-![Vee Lourenço Playing Bass](/images/veesdcolour.jpg)
+![Vee Lourenço](/images/veesdcolour.jpg)
 <div style="text-align: right; font-size: 0.8em"> Photo by Gemma Garman </div>
