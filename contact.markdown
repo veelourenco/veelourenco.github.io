@@ -7,7 +7,7 @@ permalink: /contact
 <br />
 ### GET IN TOUCH
 <br />
-For collaborations or to connect, contact me via email.
+For collaborations or to connect, contact me via email:
 <br />
 <br />
 <vloumusic@gmail.com>
