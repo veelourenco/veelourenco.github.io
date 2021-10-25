@@ -16,7 +16,7 @@ Vee performed in productions at The Barnyard Theatres across South Africa and in
 Vee has been a part of numerous bands in South Africa and Vietnam, most notably Lu-Fuki, Monoheart and Zamina. She has also supported several musicians, live and in studio, including Denys & the Roses in France and Jack Kaminski in South Africa. Her most notable live shows are Quest Festival, Vietnam (2016 and 2017), Sofar Sounds Johannesburg, South Africa (2018), Afrique Train Fest, South Africa (2018) and Smoking Dragon NYE Festival, South Africa (2018).
 <br />
 <br />
-Vee is currently collaborating and working on her solo project, [vlou](https://instagram.com/vloumusic).
+Vee is currently collaborating and working on her solo project, [vlou](https://linktr.ee/vloumusic).
 <br />
 <br />
 ### DISCOGRAPHY
