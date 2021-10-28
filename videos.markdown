@@ -5,9 +5,9 @@ permalink: /videos
 ---
 
 <br />
-### INTERVIEWS
+### BEHIND THE SCENES
 <br />
-{% include youtube.html videoid="SI8xjf-pbYg" %}
+{% include youtube.html videoid="4pcWtxA5Cdo" %}
 <br />
 ### LIVE
 <br />
@@ -32,4 +32,8 @@ permalink: /videos
 {% include youtube.html videoid="FQ8hJfHVkME" %}
 <br />
 {% include youtube.html videoid="tvc1ZKoHFsc" %}
+<br />
+### INTERVIEWS
+<br />
+{% include youtube.html videoid="SI8xjf-pbYg" %}
 <br />
