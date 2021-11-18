@@ -17,7 +17,7 @@ permalink: /press
 <br />
 ##### [Creator Highlight by Queef](https://www.queef.be/vee), Belgium
 <br />
-<span style="color: grey;">*"I picked up the bass, it was incredibly healing and soul-fulfilling for me - the vibrations I felt in my chest when I played soothed (and continue to soothe) me."*</span>
+<span style="color: grey;">*"Musically, vlou intends to develop understanding and appreciation for bass as an instrument through foregrounding it in composition. Socially, vlou aims to add to the visibility and representation of female instrumentalists and queer musicians."*</span>
 <br />
 <br />
 ![Vee Lourenço](/images/queefimage.png)
