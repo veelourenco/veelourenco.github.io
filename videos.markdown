@@ -5,10 +5,6 @@ permalink: /videos
 ---
 
 <br />
-### BEHIND THE SCENES
-<br />
-{% include youtube.html videoid="4pcWtxA5Cdo" %}
-<br />
 ### MUSIC VIDEOS
 <br />
 {% include youtube.html videoid="_bPt5VAhR6M" %}
