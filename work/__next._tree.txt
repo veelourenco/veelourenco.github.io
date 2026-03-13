@@ -1,0 +1,13 @@
+:HL["/_next/static/chunks/6bc0ab21c976b26e.css","style"]
+:HL["/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://cdn.sanity.io/images/kay53yh8/production/bbdf3b82ac4e402538f284c8ecb37db7f535651b-1539x1600.jpg?rect=0,319,1539,962&w=800&h=500&auto=format","image"]
+:HL["https://cdn.sanity.io/images/kay53yh8/production/eab4b040ff7f80f924de042577ccf3d44aace11c-1337x2048.jpg?rect=0,541,1337,836&w=800&h=500&auto=format","image"]
+:HL["https://cdn.sanity.io/images/kay53yh8/production/4c689c0046023493b61f90a907d80b49afc2efda-1080x1080.jpg?rect=0,203,1080,675&w=800&h=500&auto=format","image"]
+:HL["https://cdn.sanity.io/images/kay53yh8/production/a8eee7999c0152bba2fa7e7522551fdd98632aea-600x600.png?rect=0,113,600,375&w=800&h=500&auto=format","image"]
+:HL["https://cdn.sanity.io/images/kay53yh8/production/0232c0f85f3f1212721ad5a1e7c096f6319692cd-630x630.jpg?rect=0,118,630,394&w=800&h=500&auto=format","image"]
+:HL["https://cdn.sanity.io/images/kay53yh8/production/e7dd7065fcaa59aac4e12ab9017ebb98a6d69e51-1000x1000.jpg?rect=0,188,1000,625&w=800&h=500&auto=format","image"]
+:HL["https://cdn.sanity.io/images/kay53yh8/production/6e9762b7df3f932c629d833f67f5cce9f26663a6-2048x1152.jpg?rect=103,0,1843,1152&w=800&h=500&auto=format","image"]
+:HL["https://cdn.sanity.io/images/kay53yh8/production/36d54793f36cfdb6fc1d543b2d0c378b0c41a920-1024x576.png?rect=51,0,922,576&w=800&h=500&auto=format","image"]
+:HL["https://cdn.sanity.io/images/kay53yh8/production/4352b37a8c4070fb5fcad3d23a76f2e4dbe57030-1581x1581.jpg?rect=0,297,1581,988&w=800&h=500&auto=format","image"]
+0:{"buildId":"Kl5L4z5gdeTKD4BAR9kYW","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"work","paramType":null,"paramKey":"work","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
